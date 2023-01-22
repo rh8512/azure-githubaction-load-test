@@ -1,0 +1,19 @@
+displayName: Get_azure-load-test-api.azurewebsites.net
+testPlan: quick_test.jmx
+description: 
+engineInstances: 1
+testId: 97908d9f-1537-41c2-88c2-249800d06315
+splitAllCSVs: False
+env:
+- name: domain
+  value: azure-load-test-api.azurewebsites.net
+- name: protocol
+  value: https
+- name: threads_per_engine
+  value: 5
+- name: ramp_up_time
+  value: 0
+- name: duration_in_sec
+  value: 120
+- name: path
+  value: weatherforecast
