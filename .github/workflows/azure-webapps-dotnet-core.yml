@@ -24,7 +24,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '7.0.x'                 # set this to the .NET Core version to use
   LOAD_TEST_RESOURCE: 'loadtesting-api'
-  LOAD_TEST_RESOURCE_GROUP: 'loadtesting-api'
+  LOAD_TEST_RESOURCE_GROUP: 'rg-loadtest'
 
 on:
   push:
